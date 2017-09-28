@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Scandy for OPAC",
+  "description": "This extension allows the user autoselec Scandiano as library for http://opac.provincia.re.it",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://opac.provincia.re.it/*"],
+      "js": ["jquery.js", "scandy.js"]
+    }
+  ]
+}
