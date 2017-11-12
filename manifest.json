@@ -5,8 +5,7 @@
   "description": "This extension allows the user autoselec Scandiano as library for http://opac.provincia.re.it",
   "version": "1.0",
   "permissions": [
-    "activeTab",
-    "storage"
+    "activeTab"
   ],
   "content_scripts": [
     {
